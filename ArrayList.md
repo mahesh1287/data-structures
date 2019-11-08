@@ -36,9 +36,9 @@ When you need faster random access, give index and it will return the element in
 8.	What about deletion or adding?
 ArrayList since it uses object arrays elements are moved to right while adding and to left while deleting it may cost over head if it has million elements to it.
 9. Time complexity of various functions
-a. add(element) takes O(1) 
-b. add(index, element)  O(n) time
-c. get() – O(1) 
-d. remove() – runs in linear O(n) time. We have to iterate the entire array to find the element qualifying for removal
-e. indexOf() – also runs in linear time. It iterates through the internal array and checking each element one by one. So the time complexity for this operation always requires O(n) time
-f. contains() – implementation is based on indexOf(). So it will also run in O(n) time.
+	9.1. add(element) takes O(1) 
+	9.2. add(index, element)  O(n) time
+	9.3. get() – O(1) 
+9.4 remove() runs in linear O(n) time. We have to iterate the entire array to find the element qualifying for removal
+	9.6 indexOf() also runs linear time. It iterates through the internal array and checking each element one by one. So the 			time complexity for this operation always requires O(n) time
+	9.7 contains() implementation is based on indexOf(). So it will also run in O(n) time.
